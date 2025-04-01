@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZooCoder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9a44ea88091c3a812e8b4debcf2000684815f7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7fc024d9ac57811a136ddf6d1b97e1696757cad")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZooCoder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZooCoder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
