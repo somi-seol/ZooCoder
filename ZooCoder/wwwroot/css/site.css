@@ -20,3 +20,21 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+h1 {
+  text-align: center; /* Centers the text for h1 headings. */
+ }
+ form, table {
+  max-width: 400px;   /* Sets the max width to 400 pixels. */
+  margin: 0 auto;     /* Centers horizontally. */
+  padding: 20px;      /* Adds white space. */
+  border-radius: 5px; /* Rounds the corners with a border. */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow.*/
+ }
+ th, td {
+     padding: 5px;    /* Adds whitespace around the cells. */
+   }
+
+table tr:nth-child(odd) {
+  background-color: #c9c9c9;
+}

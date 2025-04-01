@@ -1,10 +1,27 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Feeding Schedules";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Feeding Schedule</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Animal Name</th>
+            <th>Feeding Time</th>
+            <th>Employee</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var schedule in Model.FeedingSchedules)
+        {
+            <tr>
+                <td>@schedule.name</td>
+                <td>@schedule.feeding_time</td>
+                <td>@schedule.last_name</td>
+            </tr>
+        }
+    </tbody>
+</table>
